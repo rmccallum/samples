@@ -1,0 +1,254 @@
+<?php
+$this->headScript()->appendFile('/js/foggy.js');
+$this->headScript()->appendFile('/js/slidebars.js');
+$this->headScript()->appendFile('/js/record-activity.js');
+$this->headScript()->appendFile('/js/slick.min.js');
+$this->headScript()->appendFile('/js/related-comms.js');
+$this->headLink()->appendStylesheet('/css/smoothness/jquery-ui-1.11.2.css');
+$this->headScript()->appendFile('/js/imagesloaded.pkgd.min.js');
+$this->headScript()->appendFile('/js/lazyload-posts.js');
+$this->headScript()->appendFile('/js/clipboard.js');
+
+?>
+
+
+<input class="js-communityID" type="hidden" value="<?= $this->community->id ?>">
+<input type="hidden" id="communityVisit" name="record-community-visit" class="record-community-visit" data-community-id="<?php echo $this->community->id?>">
+
+<div class="assoc-comms">
+
+    <div class="assoc-comms__current u-clearfix">
+    <?php
+    $extension = $_SERVER['HTTP_HOST'] .'/media/blank.png';
+    foreach (array('.jpg','.png','.gif') as $ext):
+                if (file_exists($_SERVER['DOCUMENT_ROOT'] . "/media/images/community/".$this->community->id."/thumbs/main" . $ext)){
+                    $extension = $_SERVER['HTTP_HOST'] . "/media/images/community/".$this->community->id."/thumbs/main" . $ext;
+                    break;
+                }
+    endforeach;
+    ?>
+        <div
+            id="js-communityBtn"
+            class="<?= (Zend_Auth::getInstance()->hasIdentity()) ? 'js-joinCommunity' : 'js-modalTrigger';?> assoc-comms__item"
+            style="background-image: url('//<?php echo $extension?>');"
+            data-community-member="<?= ($this->notAssigned) ? 'false' : 'true'; ?>"
+            data-community-id="<?= $this->community->id;?>"
+            data-community-view="true"
+            type="button"<?php if (!Zend_Auth::getInstance()->hasIdentity()) echo ' data-modal="log-in"'; ?>
+
+        	<span class="js-communityTitle assoc-comms__item-title first c-community-toggle--community u-align-left u-inline-block u-valign-middle">
+                <?php
+                    $src = "/img/svg/logo-dyadey-off.svg";
+                    if(!$this->notAssigned){ $src = "/img/svg/logo-dyadey-on.svg"; }
+                ?>
+                <img src="<?= $src; ?>" class="c-community-toggle__icon" aria-hidden="true" role="presentation" alt="">
+                <div class="u-inline-block u-align-middle">
+                    <span class="js-membershipStatus u-meta u-block"><?= ($this->notAssigned) ? 'Click to Join:' : 'You are a Member of:'; ?></span>
+                    <?= $this->community->name; ?>
+                </div>
+        	</span>
+        </div>
+    </div>
+    <div class="js-assocToggle c-assoc-toggle u-meta u-align-center">Associated Communities</div>
+    <div class="js-assocComms assoc-comms__related">
+        <?= $this->render('partials/related-communities.phtml'); ?>
+    </div>
+</div>
+
+<div id="community">
+
+    <div class="tiles">
+        <?php
+
+if(!isset($index)) {
+    $index = 0;
+}
+
+
+if (isset($this->posts) && !empty($this->posts)):
+    foreach($this->posts as $story):
+        $this->story = $story;
+        echo $this->render('partials/tile.phtml');
+    endforeach;
+endif;
+?>
+    </div>
+
+    <div class="js-lazyLoadSpinner u-pad-t2 u-pad-b2 u-align-center u-hidden">
+        <img class="u-inline-block" src="/img/lazyload.svg" alt="Loading...">
+    </div>
+</div>
+
+
+
+<script>
+$maxPosts = <?= $this->maxPosts?> ;
+
+$(window).load(function ()
+{
+    $('#communityVisit').trigger('click');
+
+    <?php if (empty($this->posts)) {
+        if (!Zend_Auth::getInstance()->hasIdentity()) { ?>
+            sweetAlert({
+                title: 'Be the first!',
+                text: 'Would you like to be the first to add content?',
+                type: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#379ECC',
+                cancelButtonColor: '#DE4D4F',
+                confirmButtonText: 'Yes, I want to add content',
+                cancelButtonText: 'Cancel',
+                closeOnConfirm: true,
+                closeOnCancel: true
+            },
+            function(isConfirm, isCancel) {
+                if (isConfirm) {
+                    jQuery('.toggle-profile').trigger('click');
+                } else {
+                    // do nothing
+                }
+            });
+        <?php } else if (!$this->notAssigned){ ?>
+            sweetAlert({
+                title:'Be the first!',
+                text:'Would you like to be the first to add content?',
+                type:'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#379ECC',
+                cancelButtonColor: '#DE4D4F',
+                confirmButtonText: 'Yes, I want to add content',
+                cancelButtonText: 'Cancel',
+                closeOnConfirm: true,
+                closeOnCancel: true
+            },
+            function(isConfirm,isCancel) {
+                if (isConfirm) {
+                    jQuery('.js-addcontent').trigger('click');
+                } else {
+                    // do nothing
+                }
+            });
+
+        <?php } else {?>
+
+            // if not a member, give message and ask if they want to join in order to make a post...
+            sweetAlert({
+                title:'Be the first!',
+                text:'Would you like to Join the community and be the first to add content?',
+                type:'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#379ECC',
+                cancelButtonColor: '#DE4D4F',
+                confirmButtonText: 'Yes, I want to join this community',
+                cancelButtonText: 'Cancel',
+                closeOnConfirm: true,
+                closeOnCancel: true
+            },
+            function(isConfirm,isCancel){
+                if (isConfirm) {
+                    // define a function to be used in conjunction with sweetAlert confirm
+
+                    var post = {'community_id':<?= $this->community->id?>};
+                    $.ajax({
+                        url: '/profile/ajax/subaction/joinleavecommunity/?community_id=' + this_community + '&format=json',
+                        data: post,
+                        type: 'POST'
+                    }).done(function(result) {
+                        var $t,
+                            $op,
+                            communityView,
+                            elementToToggle;
+
+                        Flint.log(result);
+                        if (result.success){
+                            $t = $('#community-tags-form');
+                            $op = $('<option selected="selected" value="' + $t.data('current-community-id') + '" label="' + $t.data('current-community-name') + '">' + $t.data('current-community-name') + '</option>');
+                            $op.appendTo('#community-selector');
+                            $('#community-selector').select2('val', $t.data('current-community-id'));
+                            $('#community-selector').select2('close');
+                            // update the community membership status icon and text, and number of followers
+                            $element = $('.js-joinCommunity');
+                            $communityData = {
+                                memberOf: $element.data('community-member'),
+                                class: $element.attr('class'),
+                                communityId: $element.data('community-id')
+                            };
+                            $followersQtyContainer = $('#community_' + $communityData.communityId + ' p.bottom-badge span.followers');
+                            $currentFollowersQty = parseInt($($followersQtyContainer).text());
+                            switch($communityData.memberOf) {
+                                case false:
+                                    $newFollowersQty = $currentFollowersQty+1;
+                                    $membershipStatus = "You are a Member of:"
+                                    break;
+
+                                default:
+                                    $newFollowersQty = $currentFollowersQty-1;
+                                    $membershipStatus = "Click to Join:"
+                                    break;
+                            }
+
+                            communityView = ($element.data('community-view'));
+                            elementToToggle = $element;
+
+                            if (communityView){
+                                $element.find('.js-membershipStatus').text($membershipStatus);
+                                elementToToggle = $element.find('.js-communityTitle');
+                            }
+                            if ($communityData.memberOf == true){
+                                $element.data('community-member', false);
+                                elementToToggle.removeClass('state-active');
+                            } else {
+                                $element.data('community-member', true);
+                                elementToToggle.addClass('state-active');
+                                // promptAddContent();
+
+                                $(".js-addcontent").trigger('click');
+                            }
+                            // window.location.reload();
+                            //update no of followers...
+                            $($followersQtyContainer).text($newFollowersQty);
+
+                            showPostModal();
+                        } else {
+                            sweetAlert('Oops', 'An error has occured', 'warning');
+                        }
+                    });
+                } else {
+                    // Cancel button
+                    if (parent.history.length > 1) {
+                        parent.history.back();
+                    } else {
+                        location.href = '/';
+                    }
+                }
+            });
+
+        <?php }?>
+
+    <?php } ?>
+});
+
+$(document).ready(function(){
+
+    // check if post needs loaded
+    //@todo: encapsulate this? Move to loadPost method??
+    //bug related to feature 7942: in case we land on uri (...)/post/INT - loadPost was not working... (missing slash at the end)
+    if (true === /post\/\d+/g.test(window.location.pathname)) {
+        //we're sure uri has post/123 or post/123/, exec will assign the post id to third element of the array (3rd, because we start from 0 ;))
+        var postSegment = /(post\/)(\d+)/g.exec(window.location.pathname),
+        hasContent = '';
+
+        loadPost($('.js-communityID').val(), postSegment[2]);
+    }
+
+    $commId = <?= (isset($this->community->id))? $this->community->id: 0; ?>
+
+    function promptAddContent() {
+
+    }
+});
+
+
+//end of community script
+</script>

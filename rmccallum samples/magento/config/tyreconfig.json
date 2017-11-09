@@ -1,0 +1,185 @@
+{
+  "simple_product_bypass_save" : false,
+  "batching": {
+    "should_batch": true,
+    "batchLimit": 4
+  },
+  "attribute_set_id": 12,
+  "attribute_set_options": [
+    {
+      "attribute": {
+        "attribute_text": "tyre_width",
+        "is_text": false,
+        "getter": "getTyreWidth",
+        "setter": "setTyreWidth",
+        "processors": [
+          {
+            "title": "numberConversionInchToMillimetre",
+            "function": "numberConversionInchToMillimetre",
+            "operator": "lessthan",
+            "parameters": "100",
+            "metrics": 25.4
+          }
+        ]
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "profile",
+        "is_text": false,
+        "getter": "getProfile",
+        "setter": "setProfile"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "diameter",
+        "is_text": false,
+        "getter": "getDiameter",
+        "setter": "setDiameter"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "season",
+        "is_text": false,
+        "getter": "getSeason",
+        "setter": "setSeason"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "run_flat",
+        "is_text": false,
+        "getter": "getRunFlat",
+        "setter": "setRunFlat"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "load_rating",
+        "is_text": false,
+        "getter": "getLoadRating",
+        "setter": "setLoadRating"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "speed_rating",
+        "is_text": false,
+        "getter": "getSpeedRating",
+        "setter": "setSpeedRating"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "is_budget",
+        "is_text": false,
+        "getter": "getIsBudget",
+        "setter": "setIsBudget"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "is_midrange",
+        "is_text": false,
+        "getter": "getIsMidrange",
+        "setter": "setIsMidrange"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "is_premium",
+        "is_text": false,
+        "getter": "getIsPremium",
+        "setter": "setIsPremium"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "noise",
+        "is_text": false,
+        "getter": "getNoise",
+        "setter": "setNoise"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "noise_bar",
+        "is_text": false,
+        "getter": "getNoiseBar",
+        "setter": "setNoiseBar"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "fuel_efficiency",
+        "is_text": false,
+        "getter": "getFuelEfficiency",
+        "setter": "setFuelEfficiency"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "wet_grip",
+        "is_text": false,
+        "getter": "getWetGrip",
+        "setter": "setWetGrip"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "brand",
+        "is_text": false,
+        "getter": "getBrand",
+        "setter": "setBrand"
+      }
+    },
+    {
+      "attribute": {
+        "attribute_text": "colour",
+        "is_text": false,
+        "getter": "getColour",
+        "setter": "setColour"
+      }
+    }
+  ],
+  "is_configurable": false,
+  "configurable_options": [
+  ],
+  "generate_sku": [
+    "tyre_width",
+    "profile",
+    "diameter",
+    "load_rating",
+    "speed_rating",
+    "noise"
+  ],
+  "name_required": false,
+  "add_brand_to_name": true,
+  "generate_name": [
+    "tyre_width",
+    "profile",
+    "diameter",
+    "load_rating",
+    "speed_rating"
+  ],
+  "additional_categories": [
+    "Tyres",
+    "tyres By Size",
+    "Tyres By Brand",
+    "Tyre Results",
+    "Tyres For Alloys"
+  ],
+  "add_brand_category": true,
+  "set_stock": true,
+  "stock_qty": 999,
+  "tax_class": 2,
+  "website_ids": [
+    1
+  ],
+  "product_status": 1,
+  "simple_visible": 4,
+  "configurable_visible": 4,
+  "sku_part_length": 5
+}

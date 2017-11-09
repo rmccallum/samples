@@ -1,0 +1,201 @@
+{
+   "simple_product_bypass_save" : false,
+   "should_filter" : false,
+   "batching": {
+      "should_batch": false,
+      "batchLimit": 21
+   },
+   "attribute_set_id": 11,
+   "attribute_set_options": [
+      {
+         "attribute": {
+            "attribute_text": "wheel_diameter",
+            "is_text": false,
+            "getter": "getWheelDiameter",
+            "setter": "setWheelDiameter"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "wheel_width",
+            "is_text": false,
+            "getter": "getWheelWidth",
+            "setter": "setWheelWidth"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "pcd",
+            "is_text": false,
+            "getter": "getPcd",
+            "setter": "setPcd"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "centre_bore",
+            "is_text": false,
+            "getter": "getCentreBore",
+            "setter": "setCentreBore"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "offset",
+            "is_text": false,
+            "getter": "getOffset",
+            "setter": "setOffset"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "load_rating",
+            "is_text": false,
+            "getter": "getLoadRating",
+            "setter": "setLoadRating"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "ean",
+            "is_text": true,
+            "getter": "getEan",
+            "setter": "setEan"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "brand",
+            "is_text": false,
+            "getter": "getBrand",
+            "setter": "setBrand"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "colour",
+            "is_text": false,
+            "getter": "getColour",
+            "setter": "setColour"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "wheel_construction",
+            "is_text": false,
+            "getter": "getWheelConstruction",
+            "setter": "setWheelConstruction"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "tuv_available",
+            "is_text": false,
+            "getter": "getTuvAvailable",
+            "setter": "setTuvAvailable"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "purpose",
+            "is_text": false,
+            "getter": "getPurpose",
+            "setter": "setPurpose"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "warranty",
+            "is_text": true,
+            "getter": "getWarranty",
+            "setter": "setWarranty"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "cost_currency",
+            "is_text": false,
+            "getter": "getCostCurrency",
+            "setter": "setCostCurrency"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "source_price",
+            "is_text": true,
+            "getter": "getSourcePrice",
+            "setter": "setSourcePrice"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "warehouse_location",
+            "is_text": false,
+            "getter": "getWarehouseLocation",
+            "setter": "setWarehouseLocation"
+         }
+      },
+      {
+         "attribute": {
+            "attribute_text": "alloy_styles",
+            "is_text": false,
+            "is_multi": true,
+            "ignore_empty":true,
+            "concatenate": [
+               "style_1",
+               "style_2",
+               "style_3"
+            ],
+            "getter": "getAlloyStyles",
+            "setter": "setAlloyStyles"
+         }
+      }
+   ],
+   "is_configurable": true,
+   "configurable_options": [
+      "pcd",
+      "wheel_diameter",
+      "wheel_width",
+      "centre_bore",
+      "offset",
+      "load_rating"
+   ],
+   "generate_sku": [
+      "wheel_diameter",
+      "wheel_width",
+      "pcd",
+      "centre_bore",
+      "offset",
+      "load_rating"
+   ],
+   "sku_part_length": 5,
+   "name_required": true,
+   "add_brand_to_name": true,
+   "generate_name": [
+      "pcd",
+      "wheel_diameter",
+      "wheel_width",
+      "centre_bore",
+      "offset",
+      "load_rating"
+   ],
+   "additional_categories": [
+      "Alloy Wheels",
+      "Alloys By Size",
+      "Alloys By Colour",
+      "Alloys By Brand",
+      "Alloys By Style",
+      "Alloys By Vehicle",
+      "Alloy Results"
+   ],
+   "add_brand_category": true,
+   "set_stock": true,
+   "stock_qty": 999,
+   "tax_class": 2,
+   "website_ids": [
+      1
+   ],
+   "product_status": 1,
+   "simple_visible" : 1,
+   "configurable_visible" : 4
+}

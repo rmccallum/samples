@@ -1,0 +1,151 @@
+ku,product_type,attribute set,brand,name,Cost Price,Cost Currency,EAN,Colour,description,short_description,Image 1,Image 2,Image 3,Video,tax_class_id,status,visibility,weight,season,run flat,tyre width,profile,diameter,load rating,speed rating,Warehouse Location,TUV Available,Warranty,noise,noise bar,wet grip,fuel efficiency,is budget,is midrange,is premium
+,Simple,Tyre,Continental,Conti Eco Contact EP 145/65 R15 72T,37.01,GBP,4019238159486,black,145/65 R15 72T,FR,Continental-ContiEcoContactEP.jpg,,,,2,Enabled,Visible,,Summer,no,145,65,15,72,T,,,,70,2,B,F,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact EP 155/65 R13 73T,57.39,GBP,4019238204223,black,155/65 R13 73T,,Continental-ContiEcoContactEP.jpg,,,,2,Enabled,Visible,,Summer,no,155,65,13,73,T,,,,70,2,F,F,no,no,yes
+,Simple,Tyre,Continental,Conti Premium Contact 2 175/65 R15 84H,48.39,GBP,4019238237733,black,175/65 R15 84H,(*),Continental-ContiPremiumContact2.jpg,,,,2,Enabled,Visible,,Summer,no,175,65,15,84,H,,,,70,2,C,F,no,no,yes
+,Simple,Tyre,Continental,CT 22 165/80 R15 87T,43.33,GBP,4019238113488,black,165/80 R15 87T,,Continental-CT22.jpg,,,,2,Enabled,Visible,,Summer,no,165,80,15,87,T,,,,70,2,E,F,no,no,yes
+,Simple,Tyre,Continental,Conti Premium Contact 185/50 R16 81V,74.55,GBP,4019238219920,black,185/50 R16 81V,FR,Continental-ContiPremiumContact.jpg,,,,2,Enabled,Visible,,Summer,no,185,50,16,81,V,,,,67,1,C,F,no,no,yes
+,Simple,Tyre,Fulda,Conveo Tour 175/75 R16C 101/99R,58.78,GBP,5452000331106,black,175/75 R16C 101/99R,8PR,Fulda-ConveoTour.jpg,,,,2,Enabled,Visible,,Summer,no,175,75,16,101,R,,,,70,2,E,F,no,yes,no
+,Simple,Tyre,Fulda,Conveo Tour 195/75 R16C 107/105R,70.91,GBP,5452000331502,black,195/75 R16C 107/105R,8PR,Fulda-ConveoTour.jpg,,,,2,Enabled,Visible,,Summer,no,195,75,16,107,R,,,,71,2,C,E,no,yes,no
+,Simple,Tyre,Fulda,Conveo Tour 225/70 R15C 112/110R,60.53,GBP,5452000325556,black,225/70 R15C 112/110R,8PR,Fulda-ConveoTour.jpg,,,,2,Enabled,Visible,,Summer,no,225,70,15,112,R,,,,71,2,E,C,no,yes,no
+,Simple,Tyre,Firestone,F 590 FS 185/70 R13 86T,66.61,GBP,3286347672514,black,185/70 R13 86T,,Firestone-F590FS.jpg,,,,2,Enabled,Visible,,Summer,no,185,70,13,86,T,,,,71,3,E,G,no,yes,no
+,Simple,Tyre,Firestone,F 560 135R15 72S,78.12,GBP,3286342410715,black,135R15 72S,,Firestone-F560.jpg,,,,2,Enabled,Visible,,Summer,no,135,0,15,72,S,,,,0,0,,,no,yes,no
+,Simple,Tyre,Firestone,Firehawk 700 FS 175/60 R13 77H,75.31,GBP,3286342947716,black,175/60 R13 77H,,Firestone-Firehawk700FS.jpg,,,,2,Enabled,Visible,,Summer,no,175,60,13,77,H,,,,71,3,C,F,no,yes,no
+,Simple,Tyre,Firestone,Firehawk 700 FS 215/60 R15 94V,57.53,GBP,3286342948416,black,215/60 R15 94V,,Firestone-Firehawk700FS.jpg,,,,2,Enabled,Visible,,Summer,no,215,60,15,94,V,,,,71,2,C,F,no,yes,no
+,Simple,Tyre,Continental,Vanco Four Season 205/75 R16C 110/108R,76.62,GBP,4019238214123,black,205/75 R16C 110/108R,8PR,Continental-VancoFourSeason.jpg,,,,2,Enabled,Visible,,General,no,205,75,16,110,R,,,,72,2,C,E,no,no,yes
+,Simple,Tyre,Uniroyal,Rain MAX 195/70 R15 97T,40.05,GBP,4024068219255,black,195/70 R15 97T,XL,Uniroyal-RainMAX.jpg,,,,2,Enabled,Visible,,Summer,no,195,70,15,97,T,,,,71,2,C,C,no,yes,no
+,Simple,Tyre,Uniroyal,Rain MAX 205/65 R15 99T,47.6,GBP,4024068219309,black,205/65 R15 99T,XL,Uniroyal-RainMAX.jpg,,,,2,Enabled,Visible,,Summer,no,205,65,15,99,T,,,,71,2,C,C,no,yes,no
+,Simple,Tyre,Continental,Conti Premium Contact 275/50 R19 112W,67.46,GBP,4019238214413,black,275/50 R19 112W,"XL, FR, MO, ML",Continental-ContiPremiumContact.jpg,,,,2,Enabled,Visible,,Summer,no,275,50,19,112,W,,,,70,1,B,E,no,no,yes
+,Simple,Tyre,Dunlop,SP 9 165/70 R13C 88/86R,41.45,GBP,3188642345646,black,165/70 R13C 88/86R,6PR,Dunlop-SP9.jpg,,,,2,Enabled,Visible,,Summer,no,165,70,13,88,R,,,,71,2,C,E,no,no,yes
+,Simple,Tyre,Dunlop,SP Sport 2000 E 225/50 ZR16 92W,73.86,GBP,3188642315786,black,225/50 ZR16 92W,"(*), MFS",Dunlop-SPSport2000E.jpg,,,,2,Enabled,Visible,,Summer,no,225,50,16,92,W,,,,69,2,C,E,no,no,yes
+,Simple,Tyre,Dunlop,SP Sport 200 E 175/60 R15 81V,54.99,GBP,5420005505211,black,175/60 R15 81V,,Dunlop-SPSport200E.jpg,,,,2,Enabled,Visible,,Summer,no,175,60,15,81,V,,,,67,1,E,E,no,no,yes
+,Simple,Tyre,Dunlop,SP 44J 205R16C 110/108N,69.48,GBP,5420005501305,black,205R16C 110/108N,"8PR, M+S",Dunlop-SP44J.jpg,,,,2,Enabled,Visible,,Summer,no,205,0,16,110,N,,,,74,3,C,F,no,no,yes
+,Simple,Tyre,Dunlop,Grandtrek AT2 215/80 R15 101S,58.55,GBP,4038526120670,black,215/80 R15 101S,"OWL, M+S",Dunlop-GrandtrekAT2.jpg,,,,2,Enabled,Visible,,Summer,no,215,80,15,101,S,,,,74,3,E,E,no,no,yes
+,Simple,Tyre,Dunlop,Grandtrek ST20 215/70 R16 99H,72.12,GBP,4038526194091,black,215/70 R16 99H,"M+S, LHD",Dunlop-GrandtrekST20.jpg,,,,2,Enabled,Visible,,General,no,215,70,16,99,H,,,,70,2,E,C,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Direzionale 245/45 ZR18 96Y,120.61,GBP,8019227089912,black,245/45 ZR18 96Y,,Pirelli-PzeroSystemDirezionale.jpg,,,,2,Enabled,Visible,,Summer,no,245,45,18,96,Y,,,,72,3,A,E,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 345/35 ZR15 95Y,524.49,GBP,8019227089868,black,345/35 ZR15 95Y,,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,345,35,15,95,Y,,,,74,2,B,F,no,no,yes
+,Simple,Tyre,Bridgestone,Duravis R410 165/70 R14C 89/87R,51.23,GBP,3286347667411,black,165/70 R14C 89/87R,6PR,Bridgestone-DuravisR410.jpg,,,,2,Enabled,Visible,,Summer,no,165,70,14,89,R,,,,72,2,E,E,no,yes,no
+,Simple,Tyre,Bridgestone,RD 613 195/70 R15C 104/102R,57.93,GBP,3286347700514,black,195/70 R15C 104/102R,8PR,Bridgestone-RD613.jpg,,,,2,Enabled,Visible,,Summer,no,195,70,15,104,R,,,,71,2,C,E,no,yes,no
+,Simple,Tyre,Bridgestone,Dueler H/T 688 215/65 R16 98S,87.51,GBP,3286347583612,black,215/65 R16 98S,M+S,Bridgestone-DuelerH/T688.jpg,,,,2,Enabled,Visible,,Summer,no,215,65,16,98,S,,,,73,3,E,E,no,yes,no
+,Simple,Tyre,Bridgestone,Turanza ER30 285/45 R19 107V,126.47,GBP,3286347591518,black,285/45 R19 107V,(*),Bridgestone-TuranzaER30.jpg,,,,2,Enabled,Visible,,Summer,no,285,45,19,107,V,,,,73,2,C,E,no,yes,no
+,Simple,Tyre,Bridgestone,Turanza ER30 255/50 R19 103V,104.89,GBP,3286347591419,black,255/50 R19 103V,(*),Bridgestone-TuranzaER30.jpg,,,,2,Enabled,Visible,,Summer,no,255,50,19,103,V,,,,72,2,C,E,no,yes,no
+,Simple,Tyre,Bridgestone,Dueler H/P 680 265/60 R18 109H,117.95,GBP,3286347570414,black,265/60 R18 109H,,Bridgestone-DuelerH/P680.jpg,,,,2,Enabled,Visible,,Summer,no,265,60,18,109,H,,,,72,2,E,E,no,yes,no
+,Simple,Tyre,Bridgestone,Dueler H/T 689 245/70 R16 107S,87.53,GBP,3286347536618,black,245/70 R16 107S,M+S,Bridgestone-DuelerH/T689.jpg,,,,2,Enabled,Visible,,Summer,no,245,70,16,107,S,,,,71,2,E,E,no,yes,no
+,Simple,Tyre,Bridgestone,Dueler H/P 680 275/70 R16 114H,102.83,GBP,3286347570810,black,275/70 R16 114H,,Bridgestone-DuelerH/P680.jpg,,,,2,Enabled,Visible,,Summer,no,275,70,16,114,H,,,,72,2,E,E,no,yes,no
+,Simple,Tyre,Bridgestone,Dueler H/T 689 31X10.5 R15 109R,89.03,GBP,3286347586316,black,31X10.5 R15 109R,M+S,Bridgestone-DuelerH/T689.jpg,,,,2,Enabled,Visible,,Summer,no,31,10.5,15,109,R,,,,73,2,E,E,no,yes,no
+,Simple,Tyre,Kumho,Power MAX 769 185/60 R14 82H,25.76,GBP,8808956091316,black,185/60 R14 82H,,Kumho-PowerMAX769.jpg,,,,2,Enabled,Visible,,Summer,no,185,60,14,82,H,,,,71,3,E,F,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 165R13C 94/92P,36.76,GBP,8808956089672,black,165R13C 94/92P,8PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,165,0,13,94,P,,,,72,2,B,F,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 175R13C 94/92P,37.13,GBP,8808956089696,black,175R13C 94/92P,6PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,175,0,13,94,P,,,,74,2,B,F,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 165/70 R14C 89/87R,41.53,GBP,8808956089719,black,165/70 R14C 89/87R,6PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,165,70,14,89,R,,,,74,3,C,F,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 175/65 R14C 90/88T,66.58,GBP,8808956089436,black,175/65 R14C 90/88T,6PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,175,65,14,90,T,,,,74,3,C,E,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 175R14C 99/98Q,42.51,GBP,8808956088750,black,175R14C 99/98Q,8PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,175,0,14,99,Q,,,,74,3,C,F,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 205R14C 109/107Q,49.62,GBP,8808956089757,black,205R14C 109/107Q,8PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,205,0,14,109,Q,,,,72,2,C,E,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 215R14C 112/110Q,53.49,GBP,8808956089795,black,215R14C 112/110Q,8PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,215,0,14,112,Q,,,,74,3,C,E,no,yes,no
+,Simple,Tyre,Kumho,Radial 857 205/65 R15C 102/100R,57.1,GBP,8808956089412,black,205/65 R15C 102/100R,6PR,Kumho-Radial857.jpg,,,,2,Enabled,Visible,,Summer,no,205,65,15,102,R,,,,74,3,C,C,no,yes,no
+,Simple,Tyre,Kumho,Steel Radial 856 185/75 R16C 104/102Q,68.1,GBP,8808956092900,black,185/75 R16C 104/102Q,8PR,Kumho-SteelRadial856.jpg,,,,2,Enabled,Visible,,Summer,no,185,75,16,104,Q,,,,74,3,C,F,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 145/80 R13 75Q,35.12,GBP,8808956060183,black,145/80 R13 75Q,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,145,80,13,75,Q,,,,69,2,F,E,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 155/80 R13 79Q,29.34,GBP,8808956060213,black,155/80 R13 79Q,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,155,80,13,79,Q,,,,69,2,F,E,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 145/70 R13 71Q,25.18,GBP,8808956060176,black,145/70 R13 71Q,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,145,70,13,71,Q,,,,70,2,F,F,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 155/70 R13 75T,40.37,GBP,8808956060206,black,155/70 R13 75T,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,155,70,13,75,T,,,,69,2,F,F,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 165/70 R13 79T,27.19,GBP,8808956060220,black,165/70 R13 79T,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,165,70,13,79,T,,,,70,2,F,E,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 175/70 R13 82T,43.92,GBP,8808956060268,black,175/70 R13 82T,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,175,70,13,82,T,,,,70,2,F,F,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 175/70 R14 84T,46.95,GBP,8808956060275,black,175/70 R14 84T,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,175,70,14,84,T,,,,70,2,F,E,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 195/70 R15 97S,47.37,GBP,8808956060367,black,195/70 R15 97S,"XL, 3PMSF",Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,195,70,15,97,S,,,,73,2,F,E,no,yes,no
+,Simple,Tyre,Kumho,KW 7400 155/65 R13 73Q,24.08,GBP,8808956060190,black,155/65 R13 73Q,3PMSF,Kumho-KW7400.jpg,,,,2,Enabled,Visible,,Winter,no,155,65,13,73,Q,,,,70,2,F,F,no,yes,no
+,Simple,Tyre,Yokohama,A345 195/60 R15 88H,53.08,GBP,4968814677947,black,195/60 R15 88H,HO,Yokohama-A345.jpg,,,,2,Enabled,Visible,,Summer,no,195,60,15,88,H,,,,0,0,,,no,yes,no
+,Simple,Tyre,Yokohama,A411 225/55 R16 94V,69.57,GBP,4968814629441,black,225/55 R16 94V,Lexus,Yokohama-A411.jpg,,,,2,Enabled,Visible,,Summer,no,225,55,16,94,V,,,,0,0,,,no,yes,no
+,Simple,Tyre,Yokohama,AVS S/T Type-1 V801 255/45 R18 99V,84.51,GBP,4968814608361,black,255/45 R18 99V,,Yokohama-AVSS/TType-1V801.jpg,,,,2,Enabled,Visible,,Summer,no,255,45,18,99,V,,,,0,0,,,no,yes,no
+,Simple,Tyre,Yokohama,AVS S/T Type-1 V801 285/55 R18 113V,127.49,GBP,4968814644451,black,285/55 R18 113V,,Yokohama-AVSS/TType-1V801.jpg,,,,2,Enabled,Visible,,Summer,no,285,55,18,113,V,,,,74,2,F,E,no,yes,no
+,Simple,Tyre,Yokohama,AVS S/T Type-1 V801 285/60 R18 116V,110.41,GBP,4968814599829,black,285/60 R18 116V,,Yokohama-AVSS/TType-1V801.jpg,,,,2,Enabled,Visible,,Summer,no,285,60,18,116,V,,,,0,0,,,no,yes,no
+,Simple,Tyre,Yokohama,Geolandar H/T G035 215/60 R16 95H,67.43,GBP,4968814678975,black,215/60 R16 95H,"Mitsubishi, M+S",Yokohama-GeolandarH/TG035.jpg,,,,2,Enabled,Visible,,Summer,no,215,60,16,95,H,,,,72,3,C,C,no,yes,no
+,Simple,Tyre,Yokohama,Geolandar H/T G034 215/80 R16 101S,84.53,GBP,4968814563769,black,215/80 R16 101S,,Yokohama-GeolandarH/TG034.jpg,,,,2,Enabled,Visible,,Summer,no,215,80,16,101,S,,,,0,0,,,no,yes,no
+,Simple,Tyre,Yokohama,A348 205/60 R16 92H,52.09,GBP,4968814644147,black,205/60 R16 92H,HO,Yokohama-A348.jpg,,,,2,Enabled,Visible,,Summer,no,205,60,16,92,H,,,,72,3,B,E,no,yes,no
+,Simple,Tyre,Yokohama,A539 175/50 R13 72V,58.32,GBP,4968814620363,black,175/50 R13 72V,RPB,Yokohama-A539.jpg,,,,2,Enabled,Visible,,Summer,no,175,50,13,72,V,,,,71,3,C,F,no,yes,no
+,Simple,Tyre,Yokohama,A539 175/60 R13 77H,44.95,GBP,4968814620479,black,175/60 R13 77H,,Yokohama-A539.jpg,,,,2,Enabled,Visible,,Summer,no,175,60,13,77,H,,,,72,3,C,F,no,yes,no
+,Simple,Tyre,Yokohama,A539 185/60 R13 80H,56.62,GBP,4968814620486,black,185/60 R13 80H,,Yokohama-A539.jpg,,,,2,Enabled,Visible,,Summer,no,185,60,13,80,H,,,,72,3,C,F,no,yes,no
+,Simple,Tyre,Yokohama,A539 175/60 R14 79H,72.19,GBP,4968814620493,black,175/60 R14 79H,,Yokohama-A539.jpg,,,,2,Enabled,Visible,,Summer,no,175,60,14,79,H,,,,72,3,C,F,no,yes,no
+,Simple,Tyre,Yokohama,Geolandar H/T G038 265/60 R18 110V,102.09,GBP,4968814632328,black,265/60 R18 110V,"MO, RPB, M+S",Yokohama-GeolandarH/TG038.jpg,,,,2,Enabled,Visible,,Summer,no,265,60,18,110,V,,,,73,3,E,E,no,yes,no
+,Simple,Tyre,Yokohama,Aspec A349 175/65 R14 82T,36.08,GBP,4968814699598,black,175/65 R14 82T,,Yokohama-AspecA349.jpg,,,,2,Enabled,Visible,,Summer,no,175,65,14,82,T,,,,70,2,C,E,no,yes,no
+,Simple,Tyre,Yokohama,RY818 195/70 R15C 104/102R,44.58,GBP,4968814666804,black,195/70 R15C 104/102R,8PR,Yokohama-RY818.jpg,,,,2,Enabled,Visible,,Summer,no,195,70,15,104,R,,,,74,3,B,F,no,yes,no
+,Simple,Tyre,Yokohama,RY818 225/70 R15C 112/110R,68.94,GBP,4968814666811,black,225/70 R15C 112/110R,8PR,Yokohama-RY818.jpg,,,,2,Enabled,Visible,,Summer,no,225,70,15,112,R,,,,74,3,B,F,no,yes,no
+,Simple,Tyre,Yokohama,AVS Winter 185/55 R14 80T,38.33,GBP,4968814651930,black,185/55 R14 80T,RPB,Yokohama-AVSWinter.jpg,,,,2,Enabled,Visible,,Winter,no,185,55,14,80,T,,,,0,0,,,no,yes,no
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 255/35 ZR19 96Y,165.09,GBP,8019227133639,black,255/35 ZR19 96Y,"XL, MFS",Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,255,35,19,96,Y,,,,73,2,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 245/40 ZR18 97Y,106.81,GBP,8019227111248,black,245/40 ZR18 97Y,XL,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,245,40,18,97,Y,,,,71,3,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 255/40 ZR18 95Y,132.06,GBP,8019227092615,black,255/40 ZR18 95Y,,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,255,40,18,95,Y,,,,73,3,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 225/45 ZR17 91Y,78.53,GBP,8019227088960,black,225/45 ZR17 91Y,,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,225,45,17,91,Y,,,,73,3,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 255/45 ZR18 99Y,193.65,GBP,8019227089042,black,255/45 ZR18 99Y,,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,255,45,18,99,Y,,,,73,3,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 285/45 ZR18 103Y,347.51,GBP,8019227096002,black,285/45 ZR18 103Y,,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,285,45,18,103,Y,,,,74,2,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 255/45 ZR19 104Y,151.3,GBP,8019227131512,black,255/45 ZR19 104Y,XL,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,255,45,19,104,Y,,,,73,2,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 225/50 ZR16 92ZR,110.34,GBP,8019227107401,black,225/50 ZR16 92ZR,N3,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,225,50,16,92,ZR,,,,73,3,B,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 215/50 ZR17 91Y,147.58,GBP,8019227088892,black,215/50 ZR17 91Y,,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,215,50,17,91,Y,,,,73,2,B,F,no,no,yes
+,Simple,Tyre,Pirelli,P6000 Powergy 235/50 ZR17 96Y,105.03,GBP,8019227136821,black,235/50 ZR17 96Y,,Pirelli-P6000Powergy.jpg,,,,2,Enabled,Visible,,Summer,no,235,50,17,96,Y,,,,73,3,C,F,no,no,yes
+,Simple,Tyre,Pirelli,Pzero System Asimmetrico 245/50 ZR17 99Y,181.63,GBP,8019227086218,black,245/50 ZR17 99Y,,Pirelli-PzeroSystemAsimmetrico.jpg,,,,2,Enabled,Visible,,Summer,no,245,50,17,99,Y,,,,73,3,B,F,no,no,yes
+,Simple,Tyre,Pirelli,P6000 Powergy 235/50 ZR18 97W,136.13,GBP,8019227133066,black,235/50 ZR18 97W,,Pirelli-P6000Powergy.jpg,,,,2,Enabled,Visible,,Summer,no,235,50,18,97,W,,,,73,3,C,F,no,no,yes
+,Simple,Tyre,Pirelli,P7 205/55 R16 91V,42.08,GBP,8019227117974,black,205/55 R16 91V,Stocks last,Pirelli-P7.jpg,,,,2,Enabled,Visible,,Summer,no,205,55,16,91,V,,,,72,3,B,E,no,no,yes
+,Simple,Tyre,Pirelli,P7 215/55 R16 93V,132.6,GBP,8019227133271,black,215/55 R16 93V,,Pirelli-P7.jpg,,,,2,Enabled,Visible,,Summer,no,215,55,16,93,V,,,,0,0,,,no,no,yes
+,Simple,Tyre,Pirelli,Citynet L6 165/70 R14C 89/87R,104.1,GBP,8019227142624,black,165/70 R14C 89/87R,6PR,Pirelli-CitynetL6.jpg,,,,2,Enabled,Visible,,Summer,no,165,70,14,89,R,,,,72,2,F,F,no,no,yes
+,Simple,Tyre,Goodyear,GT-2 145/70 R13 71T,53.37,GBP,3398915707150,black,145/70 R13 71T,PE,Goodyear-GT-2.jpg,,,,2,Enabled,Visible,,Summer,no,145,70,13,71,T,,,,70,2,C,G,no,no,yes
+,Simple,Tyre,Goodyear,Eagle NCT 5 195/60 R15 88V,45.54,GBP,5452000201553,black,195/60 R15 88V,,Goodyear-EagleNCT5.jpg,,,,2,Enabled,Visible,,Summer,no,195,60,15,88,V,,,,68,1,E,E,no,no,yes
+,Simple,Tyre,GT-Radial,Champiro WT-70 135/70 R15 70T,33.18,GBP,8990876103559,black,135/70 R15 70T,,GT-Radial-ChampiroWT-70.jpg,,,,2,Enabled,Visible,,Winter,no,135,70,15,70,T,,,,70,2,C,E,no,yes,no
+,Simple,Tyre,GT-Radial,Maxmiler CX 175/75 R16C 101/99R,68.09,GBP,8990876104402,black,175/75 R16C 101/99R,8PR,GT-Radial-MaxmilerCX.jpg,,,,2,Enabled,Visible,,Summer,no,175,75,16,101,R,,,,72,2,C,E,no,yes,no
+,Simple,Tyre,Goodyear,Cargo Vector 195R14C 106/104Q,64.18,GBP,3398910098215,black,195R14C 106/104Q,"8PR, M+S",Goodyear-CargoVector.jpg,,,,2,Enabled,Visible,,General,no,195,0,14,106,Q,,,,73,3,C,E,no,no,yes
+,Simple,Tyre,Goodyear,Cargo G26 175/75 R16C 101/99R,57.03,GBP,5452000238467,black,175/75 R16C 101/99R,"8PR, FO",Goodyear-CargoG26.jpg,,,,2,Enabled,Visible,,Summer,no,175,75,16,101,R,,,,73,3,E,E,no,no,yes
+,Simple,Tyre,Goodyear,Cargo G91 205/75 R16C 113/111Q,94.6,GBP,5452000289759,black,205/75 R16C 113/111Q,10PR,Goodyear-CargoG91.jpg,,,,2,Enabled,Visible,,Summer,no,205,75,16,113,Q,,,,69,1,E,B,no,no,yes
+,Simple,Tyre,Goodyear,Cargo G91 225/75 R16C 118/116P,92.53,GBP,5452000926579,black,225/75 R16C 118/116P,8PR,Goodyear-CargoG91.jpg,,,,2,Enabled,Visible,,Summer,no,225,75,16,118,P,,,,70,2,E,B,no,no,yes
+,Simple,Tyre,Goodyear,Wrangler HP 215/60 R16 95H,70.33,GBP,5452000927316,black,215/60 R16 95H,M+S,Goodyear-WranglerHP.jpg,,,,2,Enabled,Visible,,Summer,no,215,60,16,95,H,,,,73,3,E,F,no,no,yes
+,Simple,Tyre,Goodyear,Eagle F1 GS 245/45 ZR17 89Y,133.07,GBP,3398916782439,black,245/45 ZR17 89Y,"EMT, Run Flat",Goodyear-EagleF1GS.jpg,,,,2,Enabled,Visible,,Summer,yes,245,45,17,89,Y,,,,71,2,C,F,no,no,yes
+,Simple,Tyre,Michelin,Agilis 41 165/70 R14 85R,45.33,GBP,3528701375717,black,165/70 R14 85R,XL,Michelin-Agilis41.jpg,,,,2,Enabled,Visible,,Summer,no,165,70,14,85,R,,,,72,3,C,E,no,no,yes
+,Simple,Tyre,Michelin,Compact 145/60 R13 65T,33.02,GBP,3528701361420,black,145/60 R13 65T,,Michelin-Compact.jpg,,,,2,Enabled,Visible,,Summer,no,145,60,13,65,T,,,,69,2,B,C,no,no,yes
+,Simple,Tyre,Michelin,Pilot HX MXM 225/45 R17 91W,187.25,GBP,3528701374819,black,225/45 R17 91W,,Michelin-PilotHXMXM.jpg,,,,2,Enabled,Visible,,Summer,no,225,45,17,91,W,,,,0,0,,,no,no,yes
+,Simple,Tyre,Michelin,Pilot Primacy 245/45 R19 98Y,129.26,GBP,3528702476314,black,245/45 R19 98Y,"(*), FSL",Michelin-PilotPrimacy.jpg,,,,2,Enabled,Visible,,Summer,no,245,45,19,98,Y,,,,72,3,C,F,no,no,yes
+,Simple,Tyre,Michelin,Pilot Primacy 275/35 R20 98Y,148.6,GBP,3528703434382,black,275/35 R20 98Y,"(*), FSL",Michelin-PilotPrimacy.jpg,,,,2,Enabled,Visible,,Summer,no,275,35,20,98,Y,,,,72,2,C,F,no,no,yes
+,Simple,Tyre,Michelin,Pilot Sport CUP 285/30 ZR18 93Y,109.76,GBP,3528701361758,black,285/30 ZR18 93Y,FSL,Michelin-PilotSportCUP.jpg,,,,2,Enabled,Visible,,Summer,no,285,30,18,93,Y,,,,75,3,E,F,no,no,yes
+,Simple,Tyre,Michelin,Pilot Sport CUP 295/30 ZR18 94Y,234.29,GBP,3528701362878,black,295/30 ZR18 94Y,FSL,Michelin-PilotSportCUP.jpg,,,,2,Enabled,Visible,,Summer,no,295,30,18,94,Y,,,,75,3,E,F,no,no,yes
+,Simple,Tyre,Michelin,Pilot Alpin 235/65 R18 110H,144.17,GBP,3528701365503,black,235/65 R18 110H,XL,Michelin-PilotAlpin.jpg,,,,2,Enabled,Visible,,Winter,no,235,65,18,110,H,,,,70,2,E,E,no,no,yes
+,Simple,Tyre,Michelin,Agilis 51 195/65 R16C 100/98T,84.64,GBP,3528709153157,black,195/65 R16C 100/98T,6PR,Michelin-Agilis51.jpg,,,,2,Enabled,Visible,,Summer,no,195,65,16,100,T,,,,72,2,A,C,no,no,yes
+,Simple,Tyre,Michelin,Agilis 51 Snow-ICE 205/65 R15C 102/100T,81.9,GBP,3528701360973,black,205/65 R15C 102/100T,6PR,Michelin-Agilis51Snow-ICE.jpg,,,,2,Enabled,Visible,,Winter,no,205,65,15,102,T,,,,71,2,A,E,no,no,yes
+,Simple,Tyre,Michelin,Agilis 51 Snow-ICE 215/65 R15C 104/102T,93.53,GBP,3528701360164,black,215/65 R15C 104/102T,8PR,Michelin-Agilis51Snow-ICE.jpg,,,,2,Enabled,Visible,,Winter,no,215,65,15,104,T,,,,71,2,A,E,no,no,yes
+,Simple,Tyre,Vredestein,Sprint Classic 155R15 82S,60.07,GBP,8714692053306,black,155R15 82S,,Vredestein-SprintClassic.jpg,,,,2,Enabled,Visible,,Summer,no,155,0,15,82,S,,,,72,2,E,F,no,yes,no
+,Simple,Tyre,Vredestein,Sprint Classic 185R15 91H,86.87,GBP,8714692053320,black,185R15 91H,,Vredestein-SprintClassic.jpg,,,,2,Enabled,Visible,,Summer,no,185,0,15,91,H,,,,72,2,E,F,no,yes,no
+,Simple,Tyre,Vredestein,Sprint Classic 185R16 93H,163.5,GBP,8714692053283,black,185R16 93H,,Vredestein-SprintClassic.jpg,,,,2,Enabled,Visible,,Summer,no,185,0,16,93,H,,,,69,1,C,F,no,yes,no
+,Simple,Tyre,Vredestein,Comtrac 185/75 R16C 104/102R,67.24,GBP,8714692040238,black,185/75 R16C 104/102R,8PR,Vredestein-Comtrac.jpg,,,,2,Enabled,Visible,,Summer,no,185,75,16,104,R,,,,69,1,C,F,no,yes,no
+,Simple,Tyre,Vredestein,Comtrac 195/75 R16C 107/105R,72.9,GBP,8714692040252,black,195/75 R16C 107/105R,8PR,Vredestein-Comtrac.jpg,,,,2,Enabled,Visible,,Summer,no,195,75,16,107,R,,,,69,1,C,E,no,yes,no
+,Simple,Tyre,Falken,Sincera SN-807 175/80 R14 88T,51.14,GBP,4250427400891,black,175/80 R14 88T,,Falken-SinceraSN-807.jpg,,,,2,Enabled,Visible,,Summer,no,175,80,14,88,T,,,,72,3,E,G,no,yes,no
+,Simple,Tyre,Falken,FK-07U 165/70 R12 77H,30.04,GBP,4250427404844,black,165/70 R12 77H,,Falken-FK-07U.jpg,,,,2,Enabled,Visible,,Summer,no,165,70,12,77,H,,,,71,3,E,F,no,yes,no
+,Simple,Tyre,Falken,FK-07U 185/70 R14 88H,32.62,GBP,4250427400945,black,185/70 R14 88H,,Falken-FK-07U.jpg,,,,2,Enabled,Visible,,Summer,no,185,70,14,88,H,,,,73,3,E,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 145R12C 81/79P,32.97,GBP,4250427400501,black,145R12C 81/79P,6PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,145,0,12,81,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 155R12C 88/86P,34.7,GBP,4250427400525,black,155R12C 88/86P,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,155,0,12,88,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 165R13C 91/89P,37.83,GBP,4250427400549,black,165R13C 91/89P,6PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,165,0,13,91,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 175R13C 94/92P,40.02,GBP,4250427400563,black,175R13C 94/92P,6PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,175,0,13,94,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 175R14C 99/98P,42.3,GBP,4250427400600,black,175R14C 99/98P,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,175,0,14,99,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 195/70 R15C 104/102R,46.17,GBP,4250427400679,black,195/70 R15C 104/102R,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,195,70,15,104,R,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,FK-07E 165/70 R10 72H,37.33,GBP,4250427400914,black,165/70 R10 72H,,Falken-FK-07E.jpg,,,,2,Enabled,Visible,,Summer,no,165,70,10,72,H,,,,71,3,E,F,no,yes,no
+,Simple,Tyre,Falken,Sincera SN-807 155/80 R13 79T,64.88,GBP,4250427400860,black,155/80 R13 79T,,Falken-SinceraSN-807.jpg,,,,2,Enabled,Visible,,Summer,no,155,80,13,79,T,,,,72,3,E,G,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 155R12C 83/81P,38.34,GBP,4250427400518,black,155R12C 83/81P,6PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,155,0,12,83,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 155R13C 85/83P,37.12,GBP,4250427400532,black,155R13C 85/83P,6PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,155,0,13,85,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 165R13C 94/92P,40.53,GBP,4250427400556,black,165R13C 94/92P,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,165,0,13,94,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 175R13C 97/95P,40.2,GBP,4250427400570,black,175R13C 97/95P,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,175,0,13,97,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 165R14C 97/95P,39.15,GBP,4250427400594,black,165R14C 97/95P,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,165,0,14,97,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 195R14C 106/104P,65.97,GBP,4250427400631,black,195R14C 106/104P,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,195,0,14,106,P,,,,72,2,C,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 195/70 R15 97T,47.25,GBP,4250427400976,black,195/70 R15 97T,XL,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,195,70,15,97,T,,,,71,2,E,F,no,yes,no
+,Simple,Tyre,Falken,Linam R-51 225/70 R15C 112/110R,51.79,GBP,4250427400686,black,225/70 R15C 112/110R,8PR,Falken-LinamR-51.jpg,,,,2,Enabled,Visible,,Summer,no,225,70,15,112,R,,,,72,2,E,F,no,yes,no
+,Simple,Tyre,Kleber,Viaxer 155/70 R13 75T,28.25,GBP,3528701618968,black,155/70 R13 75T,,Kleber-Viaxer.jpg,,,,2,Enabled,Visible,,Summer,no,155,70,13,75,T,,,,68,2,C,F,no,yes,no
+,Simple,Tyre,Kleber,Viaxer 175/65 R13 80T,50.46,GBP,3528701619002,black,175/65 R13 80T,,Kleber-Viaxer.jpg,,,,2,Enabled,Visible,,Summer,no,175,65,13,80,T,,,,68,2,C,F,no,yes,no
+,Simple,Tyre,Continental,Conti Eco Contact 3 145/80 R13 75T,32.93,GBP,4019238258868,black,145/80 R13 75T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,145,80,13,75,T,,,,70,2,B,F,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 145/70 R13 71T,34.12,GBP,4019238258899,black,145/70 R13 71T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,145,70,13,71,T,,,,70,2,B,E,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 155/70 R13 75T,32.16,GBP,4019238258905,black,155/70 R13 75T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,155,70,13,75,T,,,,70,2,B,F,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 165/80 R13 83T,42.54,GBP,4019238258882,black,165/80 R13 83T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,165,80,13,83,T,,,,70,2,B,C,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 165/60 R14 75H,44.78,GBP,4019238258998,black,165/60 R14 75H,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,165,60,14,75,H,,,,70,2,B,E,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 175/70 R13 82T,35.52,GBP,4019238258929,black,175/70 R13 82T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,175,70,13,82,T,,,,70,2,B,E,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 165/65 R14 79T,47.86,GBP,4019238258974,black,165/65 R14 79T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,165,65,14,79,T,,,,70,2,B,E,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 165/65 R13 77T,29.85,GBP,4019238258967,black,165/65 R13 77T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,165,65,13,77,T,,,,70,2,B,F,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 195/65 R15 91T,41.58,GBP,4019238260892,black,195/65 R15 91T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,195,65,15,91,T,,,,71,2,B,E,no,no,yes
+,Simple,Tyre,Continental,Conti Eco Contact 3 185/65 R15 88T,40.91,GBP,4019238260885,black,185/65 R15 88T,,Continental-ContiEcoContact3.jpg,,,,2,Enabled,Visible,,Summer,no,185,65,15,88,T,,,,70,2,C,E,no,no,yes
+,Simple,Tyre,Dunlop,SP Sport 270 225/60 R17 99H,82.25,GBP,4038526206251,black,225/60 R17 99H,,Dunlop-SPSport270.jpg,,,,2,Enabled,Visible,,Summer,no,225,60,17,99,H,,,,71,2,C,C,no,no,yes
+,Simple,Tyre,Dunlop,SP LT 60 215/65 R16C 106/104T,102.68,GBP,4038526193247,black,215/65 R16C 106/104T,6PR,Dunlop-SPLT60.jpg,,,,2,Enabled,Visible,,Winter,no,215,65,16,106,T,,,,70,2,E,C,no,no,yes
+,Simple,Tyre,Firestone,Firehawk TZ 200 FS 195/60 R14 86H,46.73,GBP,3286347690419,black,195/60 R14 86H,,Firestone-FirehawkTZ200FS.jpg,,,,2,Enabled,Visible,,Summer,no,195,60,14,86,H,,,,71,2,C,F,no,yes,no
+,Simple,Tyre,Firestone,Firehawk TZ 200 FS 195/45 R15 78V,57.34,GBP,3286347747311,black,195/45 R15 78V,FSL,Firestone-FirehawkTZ200FS.jpg,,,,2,Enabled,Visible,,Summer,no,195,45,15,78,V,,,,70,2,B,G,no,yes,no
+,Simple,Tyre,Bridgestone,Duravis R410 205/65 R15C 102/100T,81.29,GBP,3286347721915,black,205/65 R15C 102/100T,6PR,Bridgestone-DuravisR410.jpg,,,,2,Enabled,Visible,,Summer,no,205,65,15,102,T,,,,74,3,C,E,no,yes,no
+,Simple,Tyre,Goodyear,Eagle RS-A 205/45 R17 84V,84.53,GBP,5452000933379,black,205/45 R17 84V,"(*), EMT, Run Flat",Goodyear-EagleRS-A.jpg,,,,2,Enabled,Visible,,Summer,yes,205,45,17,84,V,,,,69,2,C,F,no,no,yes
+,Simple,Tyre,Hankook,Optimo K406 195/55 R15 85V,89.39,GBP,8808563180892,black,195/55 R15 85V,,Hankook-OptimoK406.jpg,,,,2,Enabled,Visible,,Summer,no,195,55,15,85,V,,,,69,2,C,E,no,yes,no
+,Simple,Tyre,Hankook,Radial RA08 165/75 R14C 97/95R,39.84,GBP,8808563231518,black,165/75 R14C 97/95R,8PR,Hankook-RadialRA08.jpg,,,,2,Enabled,Visible,,Summer,no,165,75,14,97,R,,,,69,1,C,E,no,yes,no
+,Simple,Tyre,Hankook,Radial RA08 175/75 R14C 99/98Q,46.13,GBP,8808563231525,black,175/75 R14C 99/98Q,8PR,Hankook-RadialRA08.jpg,,,,2,Enabled,Visible,,Summer,no,175,75,14,99,Q,,,,69,1,C,F,no,yes,no

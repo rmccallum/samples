@@ -1,0 +1,22 @@
+<?php
+    
+$article = '';
+$hideMedia = $this->story['hideMedia'];
+
+switch ($this->story['hub_type']){
+    case 'dyadey':
+        if ($this->story['thumbnail'] || $this->story['og_thumbnail']) {
+            $article = $this->render('partials/default_tile.phtml');
+        } else {
+            $article = $this->render('partials/dyadey_tile.phtml');
+        }
+        break;
+
+    default:
+        // all other cases
+        $article = $this->render('partials/default_tile.phtml');
+        break;
+}
+
+echo "<article id='tile-" . $this->story['id'] . "' data-community='" . $this->story['community_id'] . "' data-index='" . $this->index . "' data-post='" . 
+                $this->story['id'] . "' $hideMedia >$article</article>";
